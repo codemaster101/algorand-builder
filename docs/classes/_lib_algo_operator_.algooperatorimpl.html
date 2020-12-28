@@ -1,0 +1,744 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AlgoOperatorImpl | @algorand-builder/algob</title>
+	<meta name="description" content="Documentation for @algorand-builder/algob">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">@algorand-builder/algob</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/_lib_algo_operator_.html">&quot;lib/algo-operator&quot;</a>
+				</li>
+				<li>
+					<a href="_lib_algo_operator_.algooperatorimpl.html">AlgoOperatorImpl</a>
+				</li>
+			</ul>
+			<h1>Class AlgoOperatorImpl</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">AlgoOperatorImpl</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/_lib_algo_operator_.algooperator.html" class="tsd-signature-type">AlgoOperator</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#algodclient" class="tsd-kind-icon">algod<wbr>Client</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#compileop" class="tsd-kind-icon">compile<wbr>Op</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#_optintoasa" class="tsd-kind-icon">_opt<wbr>InToASA</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#checkbalanceforoptintx" class="tsd-kind-icon">check<wbr>Balance<wbr>For<wbr>Opt<wbr>InTx</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#deployasa" class="tsd-kind-icon">deployASA</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#deployssc" class="tsd-kind-icon">deploySSC</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#ensurecompiled" class="tsd-kind-icon">ensure<wbr>Compiled</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#fundlsig" class="tsd-kind-icon">fund<wbr>Lsig</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#getoptintxsize" class="tsd-kind-icon">get<wbr>Opt<wbr>InTx<wbr>Size</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#gettxfee" class="tsd-kind-icon">get<wbr>TxFee</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#getusableaccbalance" class="tsd-kind-icon">get<wbr>Usable<wbr>Acc<wbr>Balance</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#optintoasa" class="tsd-kind-icon">opt<wbr>InToASA</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#optintoasamultiple" class="tsd-kind-icon">opt<wbr>InToASAMultiple</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#optintossc" class="tsd-kind-icon">opt<wbr>InToSSC</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_lib_algo_operator_.algooperatorimpl.html#waitforconfirmation" class="tsd-kind-icon">wait<wbr>For<wbr>Confirmation</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Algo<wbr>Operator<wbr>Impl<span class="tsd-signature-symbol">(</span>algocl<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Algodv2</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_lib_algo_operator_.algooperatorimpl.html" class="tsd-signature-type">AlgoOperatorImpl</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L65">packages/algob/src/lib/algo-operator.ts:65</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>algocl: <span class="tsd-signature-type">Algodv2</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_lib_algo_operator_.algooperatorimpl.html" class="tsd-signature-type">AlgoOperatorImpl</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="algodclient" class="tsd-anchor"></a>
+					<h3>algod<wbr>Client</h3>
+					<div class="tsd-signature tsd-kind-icon">algod<wbr>Client<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Algodv2</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/_lib_algo_operator_.algooperator.html">AlgoOperator</a>.<a href="../interfaces/_lib_algo_operator_.algooperator.html#algodclient">algodClient</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L64">packages/algob/src/lib/algo-operator.ts:64</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="compileop" class="tsd-anchor"></a>
+					<h3>compile<wbr>Op</h3>
+					<div class="tsd-signature tsd-kind-icon">compile<wbr>Op<span class="tsd-signature-symbol">:</span> <a href="_lib_compile_.compileop.html" class="tsd-signature-type">CompileOp</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L65">packages/algob/src/lib/algo-operator.ts:65</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="_optintoasa" class="tsd-anchor"></a>
+					<h3>_opt<wbr>InToASA</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">_opt<wbr>InToASA<span class="tsd-signature-symbol">(</span>asaName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, assetIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, account<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.account.html" class="tsd-signature-type">Account</a>, params<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">SuggestedParams</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L113">packages/algob/src/lib/algo-operator.ts:113</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>asaName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>assetIndex: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>account: <a href="../interfaces/_types_.account.html" class="tsd-signature-type">Account</a></h5>
+								</li>
+								<li>
+									<h5>params: <span class="tsd-signature-type">SuggestedParams</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="checkbalanceforoptintx" class="tsd-anchor"></a>
+					<h3>check<wbr>Balance<wbr>For<wbr>Opt<wbr>InTx</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">check<wbr>Balance<wbr>For<wbr>Opt<wbr>InTx<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, params<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">SuggestedParams</span>, asaDef<span class="tsd-signature-symbol">: </span><a href="../modules/_types_.html#asadef" class="tsd-signature-type">ASADef</a>, accounts<span class="tsd-signature-symbol">: </span><a href="../modules/_types_.html#accountmap" class="tsd-signature-type">AccountMap</a>, creator<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.account.html" class="tsd-signature-type">Account</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_types_.account.html" class="tsd-signature-type">Account</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L145">packages/algob/src/lib/algo-operator.ts:145</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>params: <span class="tsd-signature-type">SuggestedParams</span></h5>
+								</li>
+								<li>
+									<h5>asaDef: <a href="../modules/_types_.html#asadef" class="tsd-signature-type">ASADef</a></h5>
+								</li>
+								<li>
+									<h5>accounts: <a href="../modules/_types_.html#accountmap" class="tsd-signature-type">AccountMap</a></h5>
+								</li>
+								<li>
+									<h5>creator: <a href="../interfaces/_types_.account.html" class="tsd-signature-type">Account</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_types_.account.html" class="tsd-signature-type">Account</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="deployasa" class="tsd-anchor"></a>
+					<h3>deployASA</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">deployASA<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, asaDef<span class="tsd-signature-symbol">: </span><a href="../modules/_types_.html#asadef" class="tsd-signature-type">ASADef</a>, flags<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.asadeploymentflags.html" class="tsd-signature-type">ASADeploymentFlags</a>, accounts<span class="tsd-signature-symbol">: </span><a href="../modules/_types_.html#accountmap" class="tsd-signature-type">AccountMap</a>, txWriter<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">txWriter</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_types_.asainfo.html" class="tsd-signature-type">ASAInfo</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L181">packages/algob/src/lib/algo-operator.ts:181</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>asaDef: <a href="../modules/_types_.html#asadef" class="tsd-signature-type">ASADef</a></h5>
+								</li>
+								<li>
+									<h5>flags: <a href="../interfaces/_types_.asadeploymentflags.html" class="tsd-signature-type">ASADeploymentFlags</a></h5>
+								</li>
+								<li>
+									<h5>accounts: <a href="../modules/_types_.html#accountmap" class="tsd-signature-type">AccountMap</a></h5>
+								</li>
+								<li>
+									<h5>txWriter: <span class="tsd-signature-type">txWriter</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_types_.asainfo.html" class="tsd-signature-type">ASAInfo</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="deployssc" class="tsd-anchor"></a>
+					<h3>deploySSC</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">deploySSC<span class="tsd-signature-symbol">(</span>approvalProgram<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, clearProgram<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, flags<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.sscdeploymentflags.html" class="tsd-signature-type">SSCDeploymentFlags</a>, payFlags<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.txparams.html" class="tsd-signature-type">TxParams</a>, txWriter<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">txWriter</span>, scTmplParams<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_types_.strmap.html" class="tsd-signature-type">StrMap</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_types_.sscinfo.html" class="tsd-signature-type">SSCInfo</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L252">packages/algob/src/lib/algo-operator.ts:252</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Function to deploy Stateful Smart Contract</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>approvalProgram: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>name of file in which approval program is stored</p>
+									</div>
+								</li>
+								<li>
+									<h5>clearProgram: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>name of file in which clear program is stored</p>
+									</div>
+								</li>
+								<li>
+									<h5>flags: <a href="../interfaces/_types_.sscdeploymentflags.html" class="tsd-signature-type">SSCDeploymentFlags</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>SSCDeploymentFlags</p>
+									</div>
+								</li>
+								<li>
+									<h5>payFlags: <a href="../interfaces/_types_.txparams.html" class="tsd-signature-type">TxParams</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>TxParams</p>
+									</div>
+								</li>
+								<li>
+									<h5>txWriter: <span class="tsd-signature-type">txWriter</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> scTmplParams: <a href="../interfaces/_types_.strmap.html" class="tsd-signature-type">StrMap</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_types_.sscinfo.html" class="tsd-signature-type">SSCInfo</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="ensurecompiled" class="tsd-anchor"></a>
+					<h3>ensure<wbr>Compiled</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">ensure<wbr>Compiled<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, force<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span>, scTmplParams<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_types_.strmap.html" class="tsd-signature-type">StrMap</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_types_.asccache.html" class="tsd-signature-type">ASCCache</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L327">packages/algob/src/lib/algo-operator.ts:327</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> force: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> scTmplParams: <a href="../interfaces/_types_.strmap.html" class="tsd-signature-type">StrMap</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_types_.asccache.html" class="tsd-signature-type">ASCCache</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="fundlsig" class="tsd-anchor"></a>
+					<h3>fund<wbr>Lsig</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">fund<wbr>Lsig<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, flags<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.fundascflags.html" class="tsd-signature-type">FundASCFlags</a>, payFlags<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.txparams.html" class="tsd-signature-type">TxParams</a>, txWriter<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">txWriter</span>, scParams<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">LogicSigArgs</span>, scTmplParams<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_types_.strmap.html" class="tsd-signature-type">StrMap</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_types_.lsiginfo.html" class="tsd-signature-type">LsigInfo</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L211">packages/algob/src/lib/algo-operator.ts:211</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Sends Algos to ASC account (Contract Account)</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>ASC filename</p>
+									</div>
+								</li>
+								<li>
+									<h5>flags: <a href="../interfaces/_types_.fundascflags.html" class="tsd-signature-type">FundASCFlags</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>FundASC flags (as per SPEC)</p>
+									</div>
+								</li>
+								<li>
+									<h5>payFlags: <a href="../interfaces/_types_.txparams.html" class="tsd-signature-type">TxParams</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>as per SPEC</p>
+									</div>
+								</li>
+								<li>
+									<h5>txWriter: <span class="tsd-signature-type">txWriter</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>transaction log writer</p>
+									</div>
+								</li>
+								<li>
+									<h5>scParams: <span class="tsd-signature-type">LogicSigArgs</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> scTmplParams: <a href="../interfaces/_types_.strmap.html" class="tsd-signature-type">StrMap</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_types_.lsiginfo.html" class="tsd-signature-type">LsigInfo</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getoptintxsize" class="tsd-anchor"></a>
+					<h3>get<wbr>Opt<wbr>InTx<wbr>Size</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Opt<wbr>InTx<wbr>Size<span class="tsd-signature-symbol">(</span>params<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">SuggestedParams</span>, accounts<span class="tsd-signature-symbol">: </span><a href="../modules/_types_.html#accountmap" class="tsd-signature-type">AccountMap</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L101">packages/algob/src/lib/algo-operator.ts:101</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>params: <span class="tsd-signature-type">SuggestedParams</span></h5>
+								</li>
+								<li>
+									<h5>accounts: <a href="../modules/_types_.html#accountmap" class="tsd-signature-type">AccountMap</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="gettxfee" class="tsd-anchor"></a>
+					<h3>get<wbr>TxFee</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>TxFee<span class="tsd-signature-symbol">(</span>params<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">SuggestedParams</span>, txSize<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L87">packages/algob/src/lib/algo-operator.ts:87</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>params: <span class="tsd-signature-type">SuggestedParams</span></h5>
+								</li>
+								<li>
+									<h5>txSize: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getusableaccbalance" class="tsd-anchor"></a>
+					<h3>get<wbr>Usable<wbr>Acc<wbr>Balance</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Usable<wbr>Acc<wbr>Balance<span class="tsd-signature-symbol">(</span>accoutInfo<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AccountState</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L94">packages/algob/src/lib/algo-operator.ts:94</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>accoutInfo: <span class="tsd-signature-type">AccountState</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="optintoasa" class="tsd-anchor"></a>
+					<h3>opt<wbr>InToASA</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">opt<wbr>InToASA<span class="tsd-signature-symbol">(</span>asaName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, assetIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, account<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.account.html" class="tsd-signature-type">Account</a>, flags<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.txparams.html" class="tsd-signature-type">TxParams</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L123">packages/algob/src/lib/algo-operator.ts:123</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>asaName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>assetIndex: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>account: <a href="../interfaces/_types_.account.html" class="tsd-signature-type">Account</a></h5>
+								</li>
+								<li>
+									<h5>flags: <a href="../interfaces/_types_.txparams.html" class="tsd-signature-type">TxParams</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="optintoasamultiple" class="tsd-anchor"></a>
+					<h3>opt<wbr>InToASAMultiple</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">opt<wbr>InToASAMultiple<span class="tsd-signature-symbol">(</span>asaName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, asaDef<span class="tsd-signature-symbol">: </span><a href="../modules/_types_.html#asadef" class="tsd-signature-type">ASADef</a>, flags<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.asadeploymentflags.html" class="tsd-signature-type">ASADeploymentFlags</a>, accounts<span class="tsd-signature-symbol">: </span><a href="../modules/_types_.html#accountmap" class="tsd-signature-type">AccountMap</a>, assetIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L130">packages/algob/src/lib/algo-operator.ts:130</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>asaName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>asaDef: <a href="../modules/_types_.html#asadef" class="tsd-signature-type">ASADef</a></h5>
+								</li>
+								<li>
+									<h5>flags: <a href="../interfaces/_types_.asadeploymentflags.html" class="tsd-signature-type">ASADeploymentFlags</a></h5>
+								</li>
+								<li>
+									<h5>accounts: <a href="../modules/_types_.html#accountmap" class="tsd-signature-type">AccountMap</a></h5>
+								</li>
+								<li>
+									<h5>assetIndex: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="optintossc" class="tsd-anchor"></a>
+					<h3>opt<wbr>InToSSC</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">opt<wbr>InToSSC<span class="tsd-signature-symbol">(</span>sender<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.account.html" class="tsd-signature-type">Account</a>, appId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, payFlags<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_.txparams.html" class="tsd-signature-type">TxParams</a>, appArgs<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L313">packages/algob/src/lib/algo-operator.ts:313</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Opt-In to stateful smart contract</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>sender: <a href="../interfaces/_types_.account.html" class="tsd-signature-type">Account</a></h5>
+								</li>
+								<li>
+									<h5>appId: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>payFlags: <a href="../interfaces/_types_.txparams.html" class="tsd-signature-type">TxParams</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> appArgs: <span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="waitforconfirmation" class="tsd-anchor"></a>
+					<h3>wait<wbr>For<wbr>Confirmation</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">wait<wbr>For<wbr>Confirmation<span class="tsd-signature-symbol">(</span>txId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ConfirmedTxInfo</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/scale-it/algorand-builder/blob/typedoc/packages/algob/src/lib/algo-operator.ts#L74">packages/algob/src/lib/algo-operator.ts:74</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>txId: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ConfirmedTxInfo</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="../modules/_lib_algo_operator_.html">&quot;lib/algo-<wbr>operator&quot;</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="_lib_algo_operator_.algooperatorimpl.html" class="tsd-kind-icon">Algo<wbr>Operator<wbr>Impl</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#algodclient" class="tsd-kind-icon">algod<wbr>Client</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#compileop" class="tsd-kind-icon">compile<wbr>Op</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#_optintoasa" class="tsd-kind-icon">_opt<wbr>InToASA</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#checkbalanceforoptintx" class="tsd-kind-icon">check<wbr>Balance<wbr>For<wbr>Opt<wbr>InTx</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#deployasa" class="tsd-kind-icon">deployASA</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#deployssc" class="tsd-kind-icon">deploySSC</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#ensurecompiled" class="tsd-kind-icon">ensure<wbr>Compiled</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#fundlsig" class="tsd-kind-icon">fund<wbr>Lsig</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#getoptintxsize" class="tsd-kind-icon">get<wbr>Opt<wbr>InTx<wbr>Size</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#gettxfee" class="tsd-kind-icon">get<wbr>TxFee</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#getusableaccbalance" class="tsd-kind-icon">get<wbr>Usable<wbr>Acc<wbr>Balance</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#optintoasa" class="tsd-kind-icon">opt<wbr>InToASA</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#optintoasamultiple" class="tsd-kind-icon">opt<wbr>InToASAMultiple</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#optintossc" class="tsd-kind-icon">opt<wbr>InToSSC</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_lib_algo_operator_.algooperatorimpl.html#waitforconfirmation" class="tsd-kind-icon">wait<wbr>For<wbr>Confirmation</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="../interfaces/_lib_algo_operator_.algooperator.html" class="tsd-kind-icon">Algo<wbr>Operator</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
+						<a href="../modules/_lib_algo_operator_.html#algorand_asa_ownership_cost" class="tsd-kind-icon">ALGORAND_<wbr>ASA_<wbr>OWNERSHIP_<wbr>COST</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module">
+						<a href="../modules/_lib_algo_operator_.html#algorand_min_tx_fee" class="tsd-kind-icon">ALGORAND_<wbr>MIN_<wbr>TX_<wbr>FEE</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
+						<a href="../modules/_lib_algo_operator_.html#confirmedround" class="tsd-kind-icon">confirmed<wbr>Round</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="../modules/_lib_algo_operator_.html#createalgooperator" class="tsd-kind-icon">create<wbr>Algo<wbr>Operator</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
